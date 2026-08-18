@@ -3,7 +3,7 @@ replicaCount: 3
 image:
 image:
   repository: us-central1-docker.pkg.dev/nisarga-505804/nginx-app/nginx-app
-  tag: "v1.0.0"
+  tag: "v1.0.1"
   pullPolicy: IfNotPresent
 
 service:
