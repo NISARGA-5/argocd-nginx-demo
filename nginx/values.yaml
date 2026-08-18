@@ -1,8 +1,9 @@
 replicaCount: 3
 
 image:
-  repository: nginx
-  tag: "1.27"
+image:
+  repository: us-central1-docker.pkg.dev/nisarga-505804/nginx-app/nginx-app
+  tag: "v1.0.0"
   pullPolicy: IfNotPresent
 
 service:
